@@ -45,7 +45,7 @@ public class AssignmentTestsWithJson {
 		}
 		
 		//Assertion to validate if the number of wicket keepers in the team are atleast 1
-		Assert.assertTrue(totalWicketKeeper>1 , "Total number of wicket keepers in the team are atleast 1"); 
+		Assert.assertTrue(totalWicketKeeper>0 , "Total number of wicket keepers in the team are atleast 1"); 
 	}
 
 }
